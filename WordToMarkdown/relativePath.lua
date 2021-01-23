@@ -10,3 +10,13 @@ for fp, mt, contents in pandoc.mediabag.items() do
     pandoc.mediabag.insert(relativePath, mt, contents)
 end
 
+-- function relative_path (path)
+--   local fname = system.get_working_directory() .. '/'
+--   return fname .. 'you/path/prefix' .. path
+-- end
+
+-- function Image (element)
+--   element.src = relative_path(element.src)
+--   return element
+-- end
+
